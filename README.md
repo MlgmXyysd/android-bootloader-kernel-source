@@ -5,6 +5,8 @@
 > 解锁 Bootloader 可能会导致失去保修、降低设备安全性，甚至引发数据丢失或无法恢复的故障。请确保您已充分了解相关风险，并谨慎操作。
 > 
 > 关于「自定义信任根」功能，请参考 [Android 开发者文档](https://source.android.com/docs/security/features/verifiedboot/device-state?hl=zh-cn#user-settable-root-of-trust)
+>
+> [原文档(已停止更新)](https://github.com/KHwang9883/bootloader-kernel-source)
 
 - ✅ 支持/是 | **可点击**
 - ⚠️ 名义上支持，但严格限制名额/审核，或新机型不再支持解锁，或存在免费且公开的非官方解锁方案 | **可点击**
