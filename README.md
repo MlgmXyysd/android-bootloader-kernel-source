@@ -87,7 +87,8 @@
     - 部分设备不允许回锁
     - 部分机型解锁后会熔断 TEE，不可恢复原厂密钥
     - 部分机型缺失内核源码
-    - 联想乐檬 K12 / K12 Pro 需使用 Motorola 解锁方式
+    - 联想乐檬 K12 / K12 Pro 以及 拯救者 Y70 2026 (XT2611-1) 需使用 Motorola 解锁方式
+    - NEC 品牌的平板电脑也部分适用
 
 ## 乐视 (Letv)
 - **Bootloader 解锁**: ✅
@@ -122,7 +123,7 @@
     - 仅限搭载 Android 系统的设备
 
 ## 摩托罗拉 (Motorola)
-- **Bootloader 解锁**: [✅](https://motorola-global-portal.custhelp.com/app/standalone/bootloader/unlock-your-device-a)
+- **Bootloader 解锁**: [⏹](https://motorola-global-portal.custhelp.com/app/standalone/bootloader/unlock-your-device-a)
 - **解锁等待时长**: 无 (秒解)
 - **解锁后保修状态**: ❌
 - **是否支持回锁**: ⏹
@@ -131,13 +132,16 @@
 - **备注**:
     - 解锁后无法恢复出厂 `oem_locked` 状态
     - 解锁后 OTA 功能失效
-    - 解锁需绑定 My Moto Care
+    - 解锁需使用 Motorola ID 或 Google 账户，但账户无需绑定手机，也没有每日申请上限
     - 提交后会在几分钟内将解锁文件发至邮箱
     - 部分机型解锁后会熔断 TEE，不可恢复原厂密钥
+    - 部分运营商定制机无法解锁 Bootloader，这类机器的 CID 为 0x0033。已知的运营商包括以下4家：
+      - AT&T、Cricket、Verizon、TracFone
+    - Motorola 品牌的平板电脑需使用 Lenovo 解锁方式
 
 ## 赫名迪 / 诺基亚 (HMD / Nokia)
 - **Bootloader 解锁**: ❌
-- **Linux 内核开源**: [✅](https://www.nokia.com/phones/en_int/opensource)
+- **Linux 内核开源**: [✅](https://hmd.com/en_int/opensource)
 - **备注**: 官方未提供解锁
 
 ## Nothing
